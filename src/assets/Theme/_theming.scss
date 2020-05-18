@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+
+// ==================== VARIABLES ================== //
+
+// Colors
+$blue: #0caae4;
+$darkBlue: #07243b;
+$fadeBlue: #245bff;
+$black: #000000;
+$lightGrey: #9d9d9d;
+$lightWhite: #f2f2f2;
+
+// Font
+$primaryFont: "Raleway", sans-serif;
+
+// ===================== MIXINS ====================== //
+
+// Text Styling
+@mixin textStyle(
+  $font,
+  $color: transparent,
+  $weight: normal,
+  $bgColor: transparent
+) {
+  background-color: $bgColor;
+  height: #{$font}px;
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: #{$font}px;
+  line-height: #{$font}px;
+  color: $color;
+  letter-spacing: 0.1px;
+  //   padding: 0;
+  margin: 0;
+}
+
+// Button Styling
+@mixin btnStyle(
+  $font,
+  $height,
+  $px,
+  $py,
+  $color,
+  $bgColor,
+  $borderRadius: 8 // $borderColor,
+    // $hoverColor,
+    // $hoverBg,
+) {
+  display: block;
+  margin: 0 auto;
+  font-family: $primaryFont !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: #{$font}px !important;
+  line-height: #{$height}px !important;
+  padding: #{$py}px #{$px}px !important;
+  text-align: center;
+  letter-spacing: 0.2px !important;
+  border: none !important;
+  box-sizing: border-box;
+  border-radius: #{$borderRadius}px;
+  color: $color;
+  background-color: $bgColor;
+  // &:hover {
+  //   color: $hoverColor !important;
+  //   border: 1px solid $hoverBg !important;
+  //   background-color: $hoverBg !important;
+  //   box-shadow: 0px 8px 16px rgba(0, 126, 255, 0.16);
+  // }
+}
