@@ -11,6 +11,7 @@ import { environment } from '../environments/environment';
 import { SignupPromptComponent } from './signup-prompt/signup-prompt.component';
 import { MaterialModule } from './material/material.module';
 import { SignupComponent } from './signup/signup.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SignupComponent } from './signup/signup.component';
     FaveBackgroundComponent,
     SignupPromptComponent,
     SignupComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,

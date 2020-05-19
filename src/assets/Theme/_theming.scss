@@ -30,8 +30,6 @@ $primaryFont: "Raleway", sans-serif;
   font-size: #{$font}px;
   line-height: #{$font}px;
   color: $color;
-  letter-spacing: 0.1px;
-  //   padding: 0;
   margin: 0;
 }
 
@@ -51,12 +49,12 @@ $primaryFont: "Raleway", sans-serif;
   margin: 0 auto;
   font-family: $primaryFont !important;
   font-style: normal !important;
-  font-weight: bold !important;
+  font-weight: 900 !important;
   font-size: #{$font}px !important;
   line-height: #{$height}px !important;
   padding: #{$py}px #{$px}px !important;
   text-align: center;
-  letter-spacing: 0.2px !important;
+  letter-spacing: 2px;
   border: none !important;
   box-sizing: border-box;
   border-radius: #{$borderRadius}px;

@@ -1,0 +1,16 @@
+@import "../../assets/Theme/background";
+
+#registerBtn {
+  margin: 20% auto;
+  button {
+    margin: 5% auto;
+  }
+  .googleBtn {
+    color: black;
+    letter-spacing: 0.5px;
+  }
+  .fbBtn {
+    color: blue;
+    letter-spacing: 0.5px;
+  }
+}

@@ -18,11 +18,11 @@
   color: white;
   text-align: center;
   .signupBtn {
-    width: 60%;
+    width: 70%;
     max-width: 400px;
-    @include btnStyle(18, 18, 20, 20, #ff696d, white, 30);
+    @include btnStyle(14, 14, 23, 23, #ff696d, white, 30);
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
 
   mat-divider {
@@ -35,6 +35,9 @@
     margin: 0 auto;
     width: 30%;
     border-top-color: white;
+  }
+  .caption {
+    text-decoration: underline;
   }
 }
 
